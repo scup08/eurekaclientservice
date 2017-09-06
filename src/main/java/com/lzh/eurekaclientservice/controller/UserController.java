@@ -17,7 +17,7 @@ public class UserController {
 //    private ILoginService loginService;
 
     @RequestMapping(value= "/user/{id}" ,method = RequestMethod.GET)
-    public String getUsers(@PathVariable("id") String id) {
+    public String getUser(@PathVariable("id") String id) {
     	System.out.println("id++++++++++++++++++++ " + id);
     	return id;
     }
